@@ -50,18 +50,6 @@ try:
         include_package_data=True,
         packages=find_packages(),
         install_requires=[
-            "django-contrib-comments",
-            "django >= 1.7, < 1.9",
-            "filebrowser_safe >= 0.3.4",
-            "grappelli_safe >= 0.3.12",
-            "tzlocal >= 1.0",
-            "bleach >= 1.4",
-            "beautifulsoup4 >= 4.1.3",
-            "requests >= 2.1.0",
-            "requests-oauthlib >= 0.4",
-            "future >= 0.9.0",
-            "pillow",
-            "chardet",
         ],
         entry_points="""
             [console_scripts]
